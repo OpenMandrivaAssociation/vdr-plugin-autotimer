@@ -10,8 +10,8 @@ Version:	%version
 Release:	%mkrel %rel
 Group:		Video
 License:	GPL
-URL:		http://users.tkk.fi/~phintuka/vdr/vdr-autotimer/
-Source:		http://users.tkk.fi/~phintuka/vdr/vdr-autotimer/vdr-%plugin-%version.tar.bz2
+URL:		http://phivdr.dyndns.org/vdr/vdr-autotimer/
+Source:		http://phivdr.dyndns.org/vdr/vdr-autotimer/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
