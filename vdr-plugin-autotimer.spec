@@ -2,7 +2,7 @@
 %define plugin	autotimer
 %define name	vdr-plugin-%plugin
 %define version	0.2.0
-%define rel	7
+%define rel	8
 
 Summary:	VDR plugin: Autotimer
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-autotimer/
 Source:		http://phivdr.dyndns.org/vdr/vdr-autotimer/vdr-%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -22,6 +22,7 @@ timers for matching EPG events.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
