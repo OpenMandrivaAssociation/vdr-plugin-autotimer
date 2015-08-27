@@ -1,2 +1,4 @@
+removed_sources:
+  vdr-autotimer-0.2.0.tar.bz2: a251e0434f489f315be2672c18d8c8efa5552c66
 sources:
-  "vdr-autotimer-0.2.0.tar.bz2": a251e0434f489f315be2672c18d8c8efa5552c66
+  vdr-autotimer-2.0.0.tgz: d24d09850b6884d32b884081e8260fec0b33bd1a
