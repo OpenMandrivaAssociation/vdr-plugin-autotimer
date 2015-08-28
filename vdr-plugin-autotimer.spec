@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Autotimer
 Name:		vdr-plugin-%plugin
 Version:	2.0.0
-Release:	1
+Release:	2
 Group:		Video
 License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-autotimer/
