@@ -6,7 +6,7 @@ Version:	2.0.0
 Release:	2
 Group:		Video
 License:	GPL
-URL:		http://phivdr.dyndns.org/vdr/vdr-autotimer/
+URL:		https://phivdr.dyndns.org/vdr/vdr-autotimer/
 Source:		http://phivdr.dyndns.org/vdr/vdr-autotimer/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
